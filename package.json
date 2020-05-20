@@ -63,7 +63,7 @@
   },
   "name": "@vyopta/autocomplete-pkg",
   "description": "<h3 align=\"center\">   Autocomplete </h3>",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "scripts/storybook-vue.js",
   "directories": {
     "doc": "docs"
