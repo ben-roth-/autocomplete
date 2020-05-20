@@ -1,6 +1,6 @@
 {
-  "name": "@trevoreyre/autocomplete",
-  "version": "2.1.1",
+  "name": "@vyopta/autocomplete",
+  "version": "1.0.4",
   "description": "Simple autocomplete component in vanilla JS and Vue",
   "main": "dist/autocomplete.cjs.js",
   "module": "dist/autocomplete.esm.js",
@@ -17,7 +17,7 @@
   ],
   "author": "Trevor Eyre <trevoreyre@gmail.com> (https://trevoreyre.com)",
   "license": "MIT",
-  "repository": "trevoreyre/autocomplete",
+  "repository": "ben-roth-/autocomplete",
   "bugs": "https://github.com/trevoreyre/autocomplete/issues",
   "private": false,
   "publishConfig": {

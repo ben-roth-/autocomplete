@@ -56,7 +56,9 @@ class AutocompleteCore {
         break
       }
       case 'Tab': {
+        const selectedResult = this.results[this.selectedIndex]
         this.selectResult()
+        this.onSubmit(selectedResult)
         event.preventDefault()
         break
       }

@@ -1,5 +1,4 @@
 {
-  "private": true,
   "scripts": {
     "postinstall": "lerna bootstrap",
     "start": "concurrently \"npm:storybook:js\" \"npm:storybook:vue\"",
@@ -61,5 +60,23 @@
     "vue": "^2.6.10",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "name": "@vyopta/autocomplete-pkg",
+  "description": "<h3 align=\"center\">   Autocomplete </h3>",
+  "version": "1.0.2",
+  "main": "scripts/storybook-vue.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-roth-/autocomplete.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ben-roth-/autocomplete/issues"
+  },
+  "homepage": "https://github.com/ben-roth-/autocomplete#readme"
 }
